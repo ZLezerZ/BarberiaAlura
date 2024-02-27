@@ -1,0 +1,86 @@
+.banner__img {
+    width: 100%;
+}
+/* Sección PRINCIPAL */
+.titulo-principal {
+    text-align: center;
+    padding: 5% 0% 3%;
+    font-size: 2em;
+    clear: left;
+}
+
+.principal,
+.diferenciales, .mapa {
+    width: 980px;
+    display: block;
+    margin: 0 auto;
+    text-align: justify;
+}
+
+.principal p {
+    margin: 0px 0px 10px 0px;
+}
+
+.principal strong {
+    font-weight: bold;
+}
+
+.principal em {
+    font-style: italic;
+}
+
+.utensillos {
+    width: 120px;
+    float: left;
+    margin: 0px 20px 20px 0px;
+}
+
+
+
+/* Sección MAPA */
+.mapa{
+    padding: 3% 0em;
+}
+
+.mapa h3{
+    font-size: 2em;
+    text-align: center;
+    padding: 0 0 3% 0;
+}
+.mapa p{
+    padding: 0 0 3% 0;
+    text-align: center;
+}
+
+
+
+/* Sección DIFERENCIALES */
+.diferenciales {
+}
+
+.item {
+    font-style: italic;
+}
+
+.diferenciales h2 {
+    font-size: 2em;
+    padding: 0 0 3% 0%;
+}
+
+#diferenciales__lista {
+    float: left;
+    padding: 0 3% 0 0
+}
+
+.diferenciales img {
+    width: 60%;
+}
+
+.video{
+    margin: 3% 0%;
+    text-align: center;
+}
+.video h2{
+    font-size: 2em;
+    padding: 0 0 2% 0;
+}

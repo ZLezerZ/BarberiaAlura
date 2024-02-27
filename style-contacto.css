@@ -1,0 +1,68 @@
+main{
+    width: 940px;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+form{
+    margin: 40px 0;
+    font-size: 1.1em;
+}
+label{
+    display: block;
+    margin: 0 0 10px;
+}
+.input-padron{
+    display: block;
+    margin: 0 0 30px;
+    width: 50%;
+    padding: 10px;
+    font-size: .9em;
+}
+.label-padron{
+    font-weight: bold;
+}
+fieldset{
+    width: 70%;
+    margin-bottom: 30px;
+    padding: 15px;
+}
+.checkbox{
+    margin-bottom: 30px;
+}
+select{
+    margin-left: 25px;
+    width: 30%;
+}
+
+.enviar{
+    width: 30%;
+    padding: 15px 0px;
+    border-style: none;
+    border-radius: 10px;
+    background-color: rgb(170, 106, 27);
+    color: white;
+    transition: all .5s;
+    cursor: pointer;
+    }
+
+.enviar:hover{
+    background-color:rgb(36, 38, 37);
+}
+.enviar:active{
+    transform: rotate(720deg) scale(1.2) translateX(30px);
+
+}
+
+table{
+    margin: 40px 5px;
+    border-collapse: collapse;  /*esta propiedad es para que se separe o se junten las celdas. Y se puede personalizar ese espacio con la propiedad: border-spacing: 10px; */
+}
+thead{
+    background-color: #3b3f3d;
+    color: white;
+    font-weight: bold;
+}
+th, td{
+    padding: 10px 20px;
+    border: #000000 1px solid;
+}

@@ -1,0 +1,123 @@
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+    font-family: "Exo", sans-serif;
+}
+
+main {
+    flex: 1;
+}
+
+footer {
+    flex-shrink: 0;
+}
+
+/*Todo lo que está arriba permite que el footer siempre esté abajo de todo en la página*/
+header {
+    background: #BBBBBB;
+}
+
+.caja {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header a img {
+    transition: all 0.5s;
+    margin-left: 5vw;
+}
+
+header a img:hover {
+    transform: scale(1.05);
+    transition: all 0.5s;
+}
+
+.caja-imagen-header {
+    width: 20%;
+    padding: 20px 0px 20px 0px;
+}
+
+nav {
+    display: inline-block;
+    margin-left: 25vw;
+}
+
+nav li {
+    display: inline;
+    margin: 0 0 0 15px;
+}
+
+nav a {
+    text-transform: uppercase;
+    color: #000000;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #a4641b;
+    text-decoration: underline;
+}
+
+.productos {
+    display: flex;
+    justify-content: center;
+    padding: 5vh;
+    transform: scale(.9);
+}
+
+.productos li {
+    display: inline-block;
+    border: 3px solid #000000;
+    border-radius: 10px 30px 60px 60px;
+    width: 30%;
+    max-width: 350px;
+    min-width: 280px;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    text-align: center;
+    margin: 0 1.5%;
+    transition: all 0.5s;
+}
+
+.productos li:hover {
+    border: 3px solid #a4641b;
+    transform: scale(1.05);
+    transition: all 0.5s;
+}
+
+.productos li:active {
+    border-color: #046711;
+}
+
+.productos h2 {
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.producto-descripcion {
+    font-size: 18px;
+}
+
+.producto-precio {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+footer {
+    background: url(imagenes/bg.jpg);
+    color: #CCCCCC;
+    text-align: center;
+    padding: 30px;
+}
+
+.copyright {
+    color: #FFFFFF;
+    font-size: 13px;
+    margin: 20px;
+}
