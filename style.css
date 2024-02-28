@@ -8,6 +8,7 @@ body {
 
 main {
     flex: 1;
+    background-color: #BBBBBB;
 }
 
 footer {

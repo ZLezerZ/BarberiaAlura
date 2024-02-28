@@ -7,28 +7,29 @@
 /* Sección PRINCIPAL */
 .titulo-principal {
     text-align: center;
-    padding: 5% 0% 3%;
+    padding: 0% 0% 3%;
     font-size: 2em;
     clear: left;
 }
 
-.principal,
-.diferenciales, .mapa {
-    width: 980px;
+.contenido-principal,
+.contenido-diferenciales, .contenido-mapa {
+    width: 940px;
     display: block;
     margin: 0 auto;
+    padding: 2% 0em;
     text-align: justify;
 }
 
-.principal p {
+.contenido-principal p {
     margin: 0px 0px 10px 0px;
 }
 
-.principal strong {
+.contenido-principal strong {
     font-weight: bold;
 }
 
-.principal em {
+.contenido-principal em {
     font-style: italic;
 }
 
@@ -38,11 +39,12 @@
     margin: 0px 20px 20px 0px;
 }
 
-
-
 /* Sección MAPA */
 .mapa{
-    padding: 3% 0em;
+    background-color: orange;
+}
+
+.contenido-mapa{
 }
 
 .mapa h3{
@@ -59,8 +61,6 @@
 
 /* Sección DIFERENCIALES */
 .contenido-diferenciales {
-    width: 680px;
-    margin: 0 auto;
 }
 .contenido-diferenciales h3 {
     text-align: center;
@@ -74,9 +74,13 @@
     vertical-align: top;
     padding: 0 3% 0 0;
 }
-.item {
+.items {
     font-style: italic;
     line-height: 1.5;
+
+}
+.items:nth-child(3), .items:nth-child(2) {
+    font-weight: bold;
 }
 
 .diferenciales img {
