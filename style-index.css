@@ -4,20 +4,33 @@
     width: 100%;
     height: 40vh;
 }
+
 /* Sección PRINCIPAL */
+
+.principal{
+    background-color: #e2e2e2;
+}
 .titulo-principal {
     text-align: center;
-    padding: 0% 0% 3%;
+    padding: 0% 0 3%;
     font-size: 2em;
     clear: left;
 }
+.titulo-principal:before{
+    content: "[";
+}
+.titulo-principal:after{
+    content: "]";
+}
+
 
 .contenido-principal,
-.contenido-diferenciales, .contenido-mapa {
+.contenido-diferenciales,
+.contenido-mapa {
     width: 940px;
     display: block;
     margin: 0 auto;
-    padding: 2% 0em;
+    padding: 2% 0;
     text-align: justify;
 }
 
@@ -39,34 +52,28 @@
     margin: 0px 20px 20px 0px;
 }
 
-/* Sección MAPA */
+/* Sección MAPA 
+.mapa {
+    /* background-image: linear-gradient(120deg, #a6c0fe 0%, #f68084 100%); */
+    /* background-image: linear-gradient(to top, #d9afd9 0%, #97d9e1 100%); */
+    /* background-image: linear-gradient(15deg, #13547a 0%, #80d0c7 100%); */
+    /* background-image: linear-gradient( 135deg, #F05F57 10%, #360940 100%); */
+    /* background: linear-gradient(to right bottom, #051937, #004d7a, #008793, #00bf72, #a8eb12);
+
+} */
 .mapa{
-    background-color: orange;
+    background-color: #e2e2e2;
 }
-
-.contenido-mapa{
-}
-
-.mapa h3{
-    font-size: 2em;
-    text-align: center;
-    padding: 0 0 3% 0;
-}
-.mapa p{
+.mapa p {
     padding: 0 0 3% 0;
     text-align: center;
 }
-
-
 
 /* Sección DIFERENCIALES */
-.contenido-diferenciales {
+.diferenciales {
+    background-image: linear-gradient(to top, #a4641b, #c26d5f 10%, #c38595, #b8a2b5, #e2e2e2 50%);
 }
-.contenido-diferenciales h3 {
-    text-align: center;
-    font-size: 2em;
-    padding: 0 0 3% 0%;
-}
+
 
 #diferenciales__lista {
     display: inline-block;
@@ -74,12 +81,16 @@
     vertical-align: top;
     padding: 0 3% 0 0;
 }
+
 .items {
     font-style: italic;
     line-height: 1.5;
-
 }
-.items:nth-child(3), .items:nth-child(2) {
+.items::before{
+    content: "\2701  ";
+}
+.items:nth-child(3),
+.items:nth-child(2) {
     font-weight: bold;
 }
 
@@ -87,11 +98,11 @@
     width: 60%;
 }
 
-.video{
-    margin: 3% 0%;
+.video {
+    margin: 3% 0% 3%;
     text-align: center;
+    
 }
-.video h3{
-    font-size: 2em;
-    padding: 0 0 2% 0;
+.correccion-separacion{
+    padding-top: 3%;
 }
